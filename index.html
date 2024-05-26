@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  id="survey-form">
+
+   <div class="container">
+   
+    <div class="heading">
+        <h1 id="head">
+          Survey Form
+         </h1>
+         <h2 id="subhead">Every answer would be very appriciated. Thankyou for your pricious time</h2>
+      </div>
+    <form>
+      
+        <div class="containerr" id="content1">
+            
+            <label for="name" style="color: brown;">Name *</label> <br><br>
+            <input type="text" class="box" name="name" placeholder="Enter your name" required><br><br>
+            <label for="email" style="color: brown;">Email *</label> <br><br>
+            <input type="text" class="box" name="email" placeholder="Enter your Email" required><br><br>
+            <label for="mob_num" style="color: brown;">Phone Number *</label> <br><br>
+            <input type="number" class="box" name="mob_num" placeholder="Enter your Phone number" ><br><br>
+            <label for="live" style="color: brown;">State *</label> <br><br>
+            <!-- <input type="text" class="box" name="live" placeholder="Enter your State" required><br><br> -->
+            <div id="live">         
+               <select class="box" id="country-state" name="country-state">
+    <option value="">Select state</option> -->
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+    <option value="CT">Chhattisgarh</option>
+    <option value="DN">Dadra and Nagar Haveli</option>
+    <option value="DD">Daman and Diu</option>
+    <option value="DL">Delhi</option>
+    <option value="GA">Goa</option>
+    <option value="GJ">Gujarat</option>
+    <option value="HR">Haryana</option>
+    <option value="HP">Himachal Pradesh</option>
+    <option value="JK">Jammu and Kashmir</option>
+    <option value="JH">Jharkhand</option>
+    <option value="KA">Karnataka</option>
+    <option value="KL">Kerala</option>
+    <option value="LA">Ladakh</option>
+    <option value="LD">Lakshadweep</option>
+    <option value="MP">Madhya Pradesh</option>
+    <option value="MH">Maharashtra</option>
+    <option value="MN">Manipur</option>
+    <option value="ML">Meghalaya</option>
+    <option value="MZ">Mizoram</option>
+    <option value="NL">Nagaland</option>
+    <option value="OR">Odisha</option>
+    <option value="PY">Puducherry</option>
+    <option value="PB">Punjab</option>
+    <option value="RJ">Rajasthan</option>
+    <option value="SK">Sikkim</option>
+    <option value="TN">Tamil Nadu</option>
+    <option value="TG">Telangana</option>
+    <option value="TR">Tripura</option>
+    <option value="UP">Uttar Pradesh</option>
+    <option value="UT">Uttarakhand</option>
+    <option value="WB">West Bengal</option>
+               </select>
+            </div>
+
+            <label for="age" style="color: brown;">Age (optional)</label> <br><br>
+            <input type="number" class="box" name="age" placeholder="Enter your Age" ><br><br>
+
+            <label for="rate" style="color: brown;">How do you rate yourself in coding</label><br><br>
+            <div id="option1">
+                <!-- <label for="rate">Rate yourself in coding</label> <br><br> -->
+                <input type="radio" name="rate" value="Beginner">Beginner <br> <br>
+                <input type="radio" name="rate" value="Intermediate">Intermediate <br> <br>
+                <input type="radio" name="rate" value="Advance">Advance <br> <br>
+    
+            </div>
+        </div>
+        <div class="containerr" id="content2">
+            
+            <label for="contest" style="color: brown;">Have you ever appeared in coding contest</label><br><br>
+            <div id="option1">
+                <!-- <label for="rate">Rate yourself in coding</label> <br><br> -->
+                <input type="radio" name="contest" value="true">Yes <br> <br>
+                <input type="radio" name="contest" value="false">No <br> <br>
+
+            </div>
+
+                <label for="contest" style="color: brown;">Discuss your aspiration for coding</label><br><br>
+                 <textarea name="aspiration" style="resize: none; outline: none;" id="" cols="40" rows="5" placeholder="Your aspiration.."></textarea><br><br>
+        
+                <label for="contest" style="color: brown;">What are the challenges  you face in coding ?</label><br><br>
+                 <textarea name="challenges" id="" style="resize: none; outline: none;" cols="40" rows="5" placeholder="The Challenges..."></textarea><br><br>
+                <label for="strong_zone" style="color: brown;">Please list the data structure you have strong understanding of </label><br><br>
+                 <textarea name="strong_zone" style="resize: none; outline: none;" id="" cols="40" rows="5" placeholder="1)" ></textarea><br><br>
+
+                 <button class="btn" type="submit">Submit</button> <br><br>
+
+        
+        </div>
+        
+
+        
+    </form>
+</div>
+
+</body>
+</html>
